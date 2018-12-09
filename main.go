@@ -42,6 +42,16 @@ func main() {
 	var emp Employee
 	var employees []Employee
 
+	//fmt.Print(header(CSVFILE), "\n")
+	hvalue := header(CSVFILE)
+
+	//JSONKEY := map[int]string{}
+
+	for value := range hvalue {
+
+		fmt.Printf("  %v\n", hvalue[value])
+	}
+
 	for _, each := range csvData {
 		emp.FirstName = each[0]
 		emp.LastName = each[1]
@@ -53,9 +63,7 @@ func main() {
 	// Convert to JSON
 	jsonData, err := json.Marshal(employees)
 	check(err, 1) //error check
-
 	fmt.Println(string(jsonData))
-
 	jsonFile, err := os.Create(JSONFILE)
 	check(err, 0) //error check
 	defer jsonFile.Close()
