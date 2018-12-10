@@ -1,2 +1,4 @@
-name,address,age,sex
-sam,2345 N ST,12,male
+name,address,age,sex,working
+sam,2345 N ST,12,male,yes
+john,345 S Ln,23,male,yes
+Jen,87 st,34,female,no

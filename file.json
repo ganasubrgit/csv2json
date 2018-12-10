@@ -1,1 +1,1 @@
-[{"FirstName":"name","LastName":"address","Age":0,"Sex":"sex"},{"FirstName":"sam","LastName":"2345 N ST","Age":12,"Sex":"male"}]
+{"address":"87 st","age":"34","name":"Jen","sex":"female","working":"no"}
