@@ -37,7 +37,7 @@ func printjson(m map[string]string) {
 	jsonData, err := json.Marshal(m)
 	check(err, 1) //error check
 	fmt.Println(string(jsonData))
-	jsonFile, err := os.Create(JSONFILE)
+	jsonFile, err := os.OpenFile(JSONFILE, os.O_CREATE|os.O_APPEND|os.O_WRONLY, 0644)
 	check(err, 0) //error check
 	defer jsonFile.Close()
 	jsonFile.Write(jsonData)
