@@ -9,7 +9,10 @@ Still in developement
   -csvfile string
     	CSV file to convert (default "file.csv")
   -jsonfile string
-    	JSON output file (default "file.json")```
+    	JSON output file (default "file.json")
+      ```
 
 ### Command line argument
-```csv2json -csvfile=file.csv -jsonfile=file.json```
+```
+csv2json -csvfile=file.csv -jsonfile=file.json
+```
