@@ -20,8 +20,14 @@ csv2json -csvfile=file.csv -jsonfile=file.json
 
 ### Input files
 
-![alt text](https://github.com/ganasubrgit/csv2json/blob/master/file.csv)
+```
+cat file.csv
+name,address,age,sex,working
+sam,2345 N ST,12,male,yes
+john,345 S Ln,23,male,yes
+Jen,87 st,34,female,no
 
+```
 ### Output 
 
 ```
