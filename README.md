@@ -1,7 +1,24 @@
 # csv2json
 CSV to JSON converter 
 
-Still in developement
+***beta***
+
+### git clone
+
+```
+git clone git@github.com:ganasubrgit/csv2json.git
+
+```
+
+### build
+
+```
+
+cd csv2json/
+go build .
+
+```
+
 
 ### Usage
 

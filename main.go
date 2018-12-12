@@ -9,7 +9,7 @@ import (
 )
 
 var (
-	CSVFILE  = flag.String("csvfile", "file.csv", "CSV file to convert") //help
+	CSVFILE  = flag.String("csvfile", "file.csv", "CSV file to convert")
 	JSONFILE = flag.String("jsonfile", "file.json", "JSON output file")
 )
 

@@ -8,7 +8,7 @@ import (
 )
 
 func header(filename string) []string {
-	// Load a TXT file.
+	// Load a CSV file.
 	f, _ := os.Open(filename)
 	var i int
 	// Create a new reader.
@@ -16,7 +16,7 @@ func header(filename string) []string {
 	record, err := r.Read()
 	defer f.Close()
 	for {
-		//skip after first line as header
+		//Break after reading CSV header first line
 		if i == 1 {
 			break
 		}
