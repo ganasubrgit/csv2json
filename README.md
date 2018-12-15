@@ -6,7 +6,7 @@ CSV to JSON converter
 ### git clone
 
 ```
-git clone git@github.com:ganasubrgit/csv2json.git
+git clone https://github.com/ganasubrgit/csv2json
 
 ```
 
